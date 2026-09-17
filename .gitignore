@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment
+.env
+.env.*
+.venv
+env/
+venv/
+
+# Raw and generated data
+data/raw/
+data/processed/*.jsonl
+data/processed/*.txt
+!data/processed/intent_taxonomy.json
