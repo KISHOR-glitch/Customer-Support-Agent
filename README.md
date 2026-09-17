@@ -30,6 +30,22 @@ Based on observed messages, we defined a custom taxonomy to categorize customer 
 
 ## System Architecture
 
+```mermaid
+flowchart LR
+    A[Customer Message] --> B[Intent Classifier]
+    B --> C[Predicted Intent]
+    C --> D[BM25 Retrieval]
+    D --> E[Historical AppleSupport Cases]
+    E --> F[Grounded Reply Generator]
+    F --> G[Draft Reply]
+
+    B --> H[Escalation Policy]
+    D --> H
+    H --> I[AUTO-HANDLE]
+    H --> J[ESCALATE]
+    J --> K[Human Support]
+```
+
 SupportLens operates as a sequential pipeline:
 1. **Intent Classification**: Categorizes the incoming customer message.
 2. **BM25 Retrieval**: Searches historical AppleSupport cases to find relevant past resolutions.
