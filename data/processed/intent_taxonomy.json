@@ -1,0 +1,57 @@
+[
+    {
+        "id": "ios_update",
+        "name": "iOS Update Issues",
+        "description": "Problems installing, downloading, verifying, or using an iOS or software update."
+    },
+    {
+        "id": "battery_charging",
+        "name": "Battery & Charging",
+        "description": "Battery drain, poor battery life, charging, or power-related problems."
+    },
+    {
+        "id": "app_issue",
+        "name": "App Issues",
+        "description": "Apps crashing, not opening, not downloading, or otherwise malfunctioning."
+    },
+    {
+        "id": "device_performance",
+        "name": "Device Performance",
+        "description": "Freezing, lagging, restarting, sluggish performance, or general device instability."
+    },
+    {
+        "id": "connectivity",
+        "name": "Connectivity",
+        "description": "Wi-Fi, Bluetooth, cellular reception, GPS, or other connectivity problems."
+    },
+    {
+        "id": "hardware_display",
+        "name": "Hardware & Display",
+        "description": "Screen, touch, camera, speaker, cable, or other physical/device-component problems."
+    },
+    {
+        "id": "apple_id_account",
+        "name": "Apple ID & Account",
+        "description": "Apple ID, password, login, account access, or account security problems."
+    },
+    {
+        "id": "icloud_data",
+        "name": "iCloud & Data",
+        "description": "iCloud backup, photos, messages, syncing, storage, or data-loss problems."
+    },
+    {
+        "id": "media_services",
+        "name": "Media Services",
+        "description": "Apple Music, iTunes, Podcasts, media libraries, or playback problems."
+    },
+    {
+        "id": "billing_payments",
+        "name": "Billing & Payments",
+        "description": "Apple Pay, purchases, charges, gift cards, refunds, or billing problems."
+    },
+    {
+        "id": "other_insufficient_information",
+        "name": "Other / Insufficient Information",
+        "description": "Messages that do not contain enough information to confidently assign another intent."
+    }
+]
